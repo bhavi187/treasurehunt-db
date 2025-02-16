@@ -6,7 +6,7 @@ def create_view():
 
     cursor.execute('''
         CREATE VIEW limited_clues AS
-        SELECT id, Python, JavaScript, Docker, AI
+        SELECT id, Python, JavaScript, Docker, AI, HTTPS, Binary, Bash, Hashmap
         FROM clues
     ''')
 
