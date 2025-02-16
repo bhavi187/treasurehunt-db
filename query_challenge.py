@@ -40,7 +40,7 @@ def main():
     print("\nYou now have access to the specified columns in the **clues** database.")
     print("💡 Use structured SQL queries to explore each column's values, but remember:")
     print("📌 Only **one** value at a time is accessible per search. Patience is key!")
-    print("🎯 Begin your search using the **id** column as the primary reference.")
+    print("🎯 Begin your search using the **id** column as the primary reference, and the answers the above quiz are the column names.")
     print("🚀 Have fun uncovering the hidden information—good luck!")
 
     while True:
